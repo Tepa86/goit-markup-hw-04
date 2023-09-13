@@ -316,13 +316,13 @@ gap: 24px;
     align-items: center;
     justify-content: center;
 }
-.personal-linc :hover {
+.personal-icon-inst :hover {
     background-color: #404bbf;
 }
-.personal-linc :focus {
+.personal-icon-inst :focus {
     background-color: #404bbf;
 }
-.personal-icon-inst {
+.personal-icons {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons {
