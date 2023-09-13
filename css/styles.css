@@ -103,7 +103,7 @@ body {
             line-height: 24px;
             letter-spacing: 0.32px;
             position: relative;
-            
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .listheader:hover {
     color: #404bbf;
@@ -113,12 +113,13 @@ body {
 }
 .listheader::after {
     color: #404bbf;
-    content: ''
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
     border-radius: 2px;
+    background-color: #404bbf;
     
 }
 .adress{
@@ -132,6 +133,9 @@ body {
     display: flex;
     gap: 40px;
 
+}
+.adressli {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adresslisttext {
    
