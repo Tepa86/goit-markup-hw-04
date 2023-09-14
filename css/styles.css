@@ -375,6 +375,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
 }
+.portfolio-icon :hover {
+    transform: translateY(0%);
+}
 .portfoliosecondtitle {
         font-weight: 500;
         font-size: 20px;
@@ -404,6 +407,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-text :hover {
+    transform: translateY(0%);
+}
+.portfolio-list-content :hover {
     transform: translateY(0%);
 }
 /* END PORTFOLIO */
